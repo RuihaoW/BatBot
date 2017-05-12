@@ -1,0 +1,103 @@
+----------------------------------------------------------------------------
+SUMMARY-            Translator Settings
+----------------------------------------------------------------------------
+UNITS                                              = METRIC                                            
+MAX_SPLINE_DEGREE                                  = 3                                                 
+UGI_IMPORT_POLYLINE                                = SPLINE                                            
+UGI_DIM_IMPORT_FLAG                                = ASSORTED_DIMN                                     
+FILL_MODE                                          = OFF                                               
+IMPORT_ACAD_MODEL_DATA                             = YES                                               
+IMPORT_ACAD_MODEL_DATA_TO                          = MODELING                                          
+IMPORT_ACAD_LAYOUTS                                = YES                                               
+IMPORT_ACAD_LAYOUTS_TO                             = IMPORTED_VIEW                                     
+IMPORT_ACAD_CURVES_ON_SKETCH                       = NO                                                
+AVOID_NX_TEMPLATE_PART_LAYERS                      = YES                                               
+SET_NX_LAYER_NUMBER_FROM_PREFIX                    = NO                                                
+SKIP_UNREFERENCED_ACAD_LAYERS                      = YES                                               
+IMPORT_UNSELECTED_ACAD_LAYERS                      = NO                                                
+IMPORT_UNSELECTED_ACAD_LAYERS_TO                   = 256                                               
+NON_NUMERIC_LAYER_SORTING_CRITERIA                 = ALPHABETICAL                                      
+-------------------------------End------------------------------------------
+
+----------------------------------------------------------------------------
+SUMMARY-            ACAD and NX Layer Mapping Info
+----------------------------------------------------------------------------
+ACAD Layer                                        NX Layer                                          
+------------                                      -----------                                       
+0                                                 2                                                 
+61                                                61                                                
+1                                                 1                                                 
+-------------------------------End------------------------------------------
+
+----------------------------------------------------------------------------
+SUMMARY-            ACAD and NX Linefonts Mapping Info
+----------------------------------------------------------------------------
+ACAD Linefont                                     NX Linefont                                       
+------------                                      -----------                                       
+CONTINUOUS                                        Solid                                             
+CENTER                                            Centerline                                        
+DASHDOT                                           Dotted Dashed                                     
+DASHED                                            Dashed                                            
+DOT                                               Dotted                                            
+PHANTOM                                           Phantom                                           
+-------------------------------End------------------------------------------
+
+----------------------------------------------------------------------------
+SUMMARY-            ACAD Text Fonts And NX Text Fonts Info
+----------------------------------------------------------------------------
+ACAD TextFont                                     NX TextFont                                       
+------------                                      -----------                                       
+txt.shx                                           Arial Unicode MS                                  
+-------------------------------End------------------------------------------
+
+----------------------------------------------------------------------------
+SUMMARY-            ACAD and NX Hatch Pattern Mapping Info
+----------------------------------------------------------------------------
+ACAD Hatch Pattern                                NX Hatch Pattern                                  
+------------                                      -----------                                       
+
+-None-
+-------------------------------End------------------------------------------
+
+INFO-
+INFO-		AutoCAD 2004 to Unigraphics Version NX V8.5
+INFO-		3.03
+INFO-
+INFO-		Running DXFTOUG Translator .....
+INFO-
+INFO-		Start of Translation: Thu May 11 16:50:43 2017
+INFO-
+STATUS-		Converting E:\RW\Bat_Lab\Bat_Test_Stand\DWG\JX_actuator.dwg
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of AutoCAD Input Entities
+SUMMARY-	For AutoCAD File: E:\RW\Bat_Lab\Bat_Test_Stand\DWG\JX_actuator.dwg
+SUMMARY-SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Point ....................................:	1
+SUMMARY-	Line .....................................:	40
+SUMMARY-	Layout ...................................:	2
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	43
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: E:\RW\Bat_Lab\Bat_Test_Stand\DWG\JX_actuator_dwg.prt
+SUMMARY-	Summary of UG Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	40
+SUMMARY-	Point ....................................:	1
+SUMMARY-	Group ....................................:	1
+SUMMARY-	Layout ...................................:	2
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	44
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Thu May 11 16:50:43 2017
+INFO-		Translation CPU time: 0 m, 0 s
+INFO-
